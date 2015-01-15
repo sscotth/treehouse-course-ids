@@ -4,17 +4,29 @@ var _ = require('lodash');
 
 var output = {};
 
-new Nightmare()
+var app = new Nightmare()
   .goto('http://teamtreehouse.com/tracks')
   .evaluate(getTrackInfo, function(tracks){
     _.each(tracks, function(track){
       setTrackInfo(track);
     });
   })
-  .run(function (err, nightmare) {
-    if (err) return console.log(err);
-    console.log('Done!', output);
+  .use(function(){
+    _.each(output, function(track){
+      var url = 'http://teamtreehouse.com' + track.url;
+      app
+        .use(function(){
+          console.log('Goto:', url);
+        })
+        .goto(url)
+        .screenshot(track.name + '.png');
+    });
   });
+
+app.run(function (err, nightmare) {
+  if (err) return console.log(err);
+  console.log('Done!', output);
+});
 
 function getTrackInfo(){
   return $('.track').map(function(i, track){

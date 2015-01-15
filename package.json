@@ -5,6 +5,7 @@
   "main": "app.js",
   "dependencies": {
     "camel-case": "^1.1.1",
+    "lodash": "^2.4.1",
     "nightmare": "^1.6.5"
   },
   "devDependencies": {},

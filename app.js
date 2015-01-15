@@ -1,33 +1,40 @@
 var Nightmare = require('nightmare');
 var camelCase = require('camel-case');
+var _ = require('lodash');
+
 var output = {};
 
 new Nightmare()
   .goto('http://teamtreehouse.com/tracks')
-  .evaluate(getTrackUrls, function(data){
-    setTrackUrls(data);
+  .evaluate(getTrackInfo, function(tracks){
+    _.each(tracks, function(track){
+      setTrackInfo(track);
+    });
   })
   .run(function (err, nightmare) {
     if (err) return console.log(err);
     console.log('Done!', output);
   });
 
-function getTrackUrls(){
-  return $('.track a.title').map(function(i, a){
-    return $(a).attr('href');
+function getTrackInfo(){
+  return $('.track').map(function(i, track){
+    var info = {};
+    $track = $(track);
+    info.url = $track.find('a.title').attr('href');
+
+    var classList = $track.attr('class').split(' ');
+    info.area = _.difference(classList, ['track', 'card'])[0];
+
+    info.name = $track.find('a.title h3').text();
+
+    return info;
   }).toArray();
 }
 
-function setTrackUrls(data){
-  return data
-    .map(function(url){
-      var key = trackUrlToKey(url);
-
-      output[key] = output[key] || {};
-      output[key].url = url;
-
-      return url;
-    });
+function setTrackInfo(trackInfo){
+  var key = trackUrlToKey(trackInfo.url);
+  output[key] = trackInfo;
+  return trackInfo;
 }
 
 function trackUrlToKey(url){

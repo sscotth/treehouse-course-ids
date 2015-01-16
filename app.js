@@ -14,7 +14,7 @@ var app = new Nightmare()
     });
   })
   .use(function(){
-    _.each(output, function(track){
+    _.each(output, function(track, key){
       var url = 'http://teamtreehouse.com' + track.url;
 
       app
@@ -22,7 +22,9 @@ var app = new Nightmare()
           console.log('Loading Url:', url);
         })
         .goto(url)
-        .screenshot(track.name + '.png');
+        .evaluate(getTrackDetails, function(data){
+          output[key] = _.merge(output[key], data);
+        });
     });
   });
 
@@ -32,6 +34,24 @@ app.run(function (err, nightmare) {
   var camelizedOutput = allKeysToCamelCase(output);
   console.log(JSON.stringify(camelizedOutput));
 });
+
+function getTrackDetails(){
+  var details = { sections: {} };
+
+  details.title = $('.hero-track h1').text().trim();
+
+  $('.course-preview-modal').each(function(i, item){
+    var $item = $(item);
+    var hyphenated = $item.attr('id');
+
+    details.sections[hyphenated] = {};
+    details.sections[hyphenated].stageCount = +$item.find('h3').text().trim().split(' ')[0];
+    details.sections[hyphenated].title = $item.find('h2').text().trim();
+    details.sections[hyphenated].url = $item.find('.button-secondary').attr('href');
+  });
+
+  return details;
+}
 
 function getTrackInfo(){
   return $('.track').map(function(i, track){

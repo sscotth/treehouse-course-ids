@@ -1,0 +1,623 @@
+{
+  "webDesign": {
+    "area": "css",
+    "name": "Web Design",
+    "url": "/tracks/web-design",
+    "sections": {
+      "brandIdentityBasics": {
+        "stageCount": 4,
+        "title": "Brand Identity Basics",
+        "url": "/library/brand-identity-basics"
+      },
+      "cssFoundations": {
+        "stageCount": 13,
+        "title": "CSS Foundations",
+        "url": "/library/css-foundations"
+      },
+      "cssLayoutTechniques": {
+        "stageCount": 5,
+        "title": "CSS Layout Techniques",
+        "url": "/library/css-layout-techniques"
+      },
+      "designFoundations": {
+        "stageCount": 4,
+        "title": "Design Foundations",
+        "url": "/library/design-foundations"
+      },
+      "howToMakeAWebsite": {
+        "stageCount": 10,
+        "title": "How to Make a Website",
+        "url": "/library/how-to-make-a-website"
+      },
+      "htmlForms": {
+        "stageCount": 3,
+        "title": "HTML Forms",
+        "url": "/library/html-forms"
+      },
+      "htmlTables": {
+        "stageCount": 2,
+        "title": "HTML Tables",
+        "url": "/library/html-tables"
+      },
+      "illustratorFoundations": {
+        "stageCount": 6,
+        "title": "Illustrator Foundations",
+        "url": "/library/illustrator-foundations"
+      },
+      "logoDesignBasics": {
+        "stageCount": 2,
+        "title": "Logo Design Basics",
+        "url": "/library/logo-design-basics"
+      },
+      "photoshopFoundations": {
+        "stageCount": 7,
+        "title": "Photoshop Foundations",
+        "url": "/library/photoshop-foundations"
+      },
+      "sassBasics": {
+        "stageCount": 4,
+        "title": "Sass Basics",
+        "url": "/library/sass-basics"
+      },
+      "seoBasics": {
+        "stageCount": 4,
+        "title": "SEO Basics",
+        "url": "/library/seo-basics"
+      },
+      "uxBasics": {
+        "stageCount": 5,
+        "title": "UX Basics",
+        "url": "/library/ux-basics"
+      }
+    },
+    "title": "Learn Web Design"
+  },
+  "frontEndWebDevelopment": {
+    "area": "javascript",
+    "name": "Front End Web Development",
+    "url": "/tracks/front-end-web-development",
+    "sections": {
+      "accessibility": {
+        "stageCount": 3,
+        "title": "Accessibility",
+        "url": "/library/accessibility"
+      },
+      "ajaxBasics": {
+        "stageCount": 4,
+        "title": "AJAX Basics",
+        "url": "/library/ajax-basics"
+      },
+      "consoleFoundations": {
+        "stageCount": 5,
+        "title": "Console Foundations",
+        "url": "/library/console-foundations"
+      },
+      "cssBasics": {
+        "stageCount": 7,
+        "title": "CSS Basics",
+        "url": "/library/css-basics"
+      },
+      "gitBasics": {
+        "stageCount": 6,
+        "title": "Git Basics",
+        "url": "/library/git-basics"
+      },
+      "howToMakeAWebsite": {
+        "stageCount": 10,
+        "title": "How to Make a Website",
+        "url": "/library/how-to-make-a-website"
+      },
+      "htmlForms": {
+        "stageCount": 3,
+        "title": "HTML Forms",
+        "url": "/library/html-forms"
+      },
+      "htmlTables": {
+        "stageCount": 2,
+        "title": "HTML Tables",
+        "url": "/library/html-tables"
+      },
+      "htmlVideoAndAudio": {
+        "stageCount": 3,
+        "title": "HTML Video and Audio",
+        "url": "/library/html-video-and-audio"
+      },
+      "interactiveWebPagesWithJavascript": {
+        "stageCount": 3,
+        "title": "Interactive Web Pages with JavaScript",
+        "url": "/library/interactive-web-pages-with-javascript"
+      },
+      "introductionToProgramming": {
+        "stageCount": 4,
+        "title": "Introduction to Programming",
+        "url": "/library/introduction-to-programming"
+      },
+      "javascriptFoundations": {
+        "stageCount": 6,
+        "title": "JavaScript Foundations",
+        "url": "/library/javascript-foundations"
+      },
+      "jqueryBasics": {
+        "stageCount": 6,
+        "title": "jQuery Basics",
+        "url": "/library/jquery-basics"
+      },
+      "websiteOptimization": {
+        "stageCount": 1,
+        "title": "Website Optimization",
+        "url": "/library/website-optimization"
+      }
+    },
+    "title": "Learn Front End Web Development"
+  },
+  "railsDevelopment": {
+    "area": "ruby",
+    "name": "Rails Development",
+    "url": "/tracks/rails-development",
+    "sections": {
+      "activerecordBasics": {
+        "stageCount": 6,
+        "title": "ActiveRecord Basics",
+        "url": "/library/activerecord-basics"
+      },
+      "buildATodoListApplicationWithRails4": {
+        "stageCount": 1,
+        "title": "Build a Todo List Application with Rails 4",
+        "url": "/library/build-a-todo-list-application-with-rails-4"
+      },
+      "consoleFoundations": {
+        "stageCount": 5,
+        "title": "Console Foundations",
+        "url": "/library/console-foundations"
+      },
+      "databaseFoundations": {
+        "stageCount": 9,
+        "title": "Database Foundations",
+        "url": "/library/database-foundations"
+      },
+      "gitBasics": {
+        "stageCount": 6,
+        "title": "Git Basics",
+        "url": "/library/git-basics"
+      },
+      "howToMakeAWebsite": {
+        "stageCount": 10,
+        "title": "How to Make a Website",
+        "url": "/library/how-to-make-a-website"
+      },
+      "installingARubyDevelopmentEnvironment": {
+        "stageCount": 1,
+        "title": "Installing a Ruby Development Environment",
+        "url": "/library/installing-a-ruby-development-environment"
+      },
+      "introductionToProgramming": {
+        "stageCount": 4,
+        "title": "Introduction to Programming",
+        "url": "/library/introduction-to-programming"
+      },
+      "javascriptFoundations": {
+        "stageCount": 6,
+        "title": "JavaScript Foundations",
+        "url": "/library/javascript-foundations"
+      },
+      "rubyBasics": {
+        "stageCount": 4,
+        "title": "Ruby Basics",
+        "url": "/library/ruby-basics"
+      },
+      "rubyFoundations": {
+        "stageCount": 14,
+        "title": "Ruby Foundations",
+        "url": "/library/ruby-foundations"
+      },
+      "userAuthenticationWithRails": {
+        "stageCount": 3,
+        "title": "User Authentication with Rails",
+        "url": "/library/user-authentication-with-rails"
+      }
+    },
+    "title": "Learn Rails Development"
+  },
+  "iosDevelopmentWithObjectivec": {
+    "area": "ios",
+    "name": "iOS Development with Objective-C",
+    "url": "/tracks/ios-development-with-objectivec",
+    "sections": {
+      "buildABlogReaderIphoneApp": {
+        "stageCount": 6,
+        "title": "Build a Blog Reader iPhone App",
+        "url": "/library/build-a-blog-reader-iphone-app"
+      },
+      "buildADiaryAppUsingCoreData": {
+        "stageCount": 6,
+        "title": "Build a Diary App Using Core Data",
+        "url": "/library/build-a-diary-app-using-core-data"
+      },
+      "buildAPhotoBrowserIphoneApp": {
+        "stageCount": 6,
+        "title": "Build a Photo Browser iPhone App",
+        "url": "/library/build-a-photo-browser-iphone-app"
+      },
+      "buildAPlaylistBrowserWithObjectivec": {
+        "stageCount": 5,
+        "title": "Build a Playlist Browser with Objective-C",
+        "url": "/library/build-a-playlist-browser-with-objectivec"
+      },
+      "buildASelfdestructingMessageIphoneApp": {
+        "stageCount": 5,
+        "title": "Build a Self-Destructing Message iPhone App",
+        "url": "/library/build-a-selfdestructing-message-iphone-app"
+      },
+      "buildASimpleIphoneAppWithObjectivec": {
+        "stageCount": 6,
+        "title": "Build a Simple iPhone App With Objective-C",
+        "url": "/library/build-a-simple-iphone-app-with-objectivec"
+      },
+      "implementingDesignsForIphone": {
+        "stageCount": 4,
+        "title": "Implementing Designs for iPhone",
+        "url": "/library/implementing-designs-for-iphone"
+      },
+      "objectivecBasics": {
+        "stageCount": 7,
+        "title": "Objective-C Basics",
+        "url": "/library/objectivec-basics"
+      }
+    },
+    "title": "Learn iOS Development with Objective-C"
+  },
+  "androidDevelopment": {
+    "area": "android",
+    "name": "Android Development",
+    "url": "/tracks/android-development",
+    "sections": {
+      "androidDataPersistence": {
+        "stageCount": 6,
+        "title": "Android Data Persistence",
+        "url": "/library/android-data-persistence"
+      },
+      "androidTools": {
+        "stageCount": 3,
+        "title": "Android Tools",
+        "url": "/library/android-tools"
+      },
+      "buildABlogReaderAndroidApp": {
+        "stageCount": 5,
+        "title": "Build a Blog Reader Android App",
+        "url": "/library/build-a-blog-reader-android-app"
+      },
+      "buildASelfdestructingMessageAndroidApp": {
+        "stageCount": 8,
+        "title": "Build a Self-Destructing Message Android App",
+        "url": "/library/build-a-selfdestructing-message-android-app"
+      },
+      "buildASimpleAndroidApp": {
+        "stageCount": 6,
+        "title": "Build a Simple Android App",
+        "url": "/library/build-a-simple-android-app"
+      },
+      "buildAWeatherApp": {
+        "stageCount": 6,
+        "title": "Build a Weather App",
+        "url": "/library/build-a-weather-app"
+      },
+      "buildAnInteractiveStoryApp": {
+        "stageCount": 4,
+        "title": "Build an Interactive Story App",
+        "url": "/library/build-an-interactive-story-app"
+      },
+      "implementingDesignsForAndroid": {
+        "stageCount": 8,
+        "title": "Implementing Designs for Android",
+        "url": "/library/implementing-designs-for-android"
+      },
+      "javaBasics": {
+        "stageCount": 3,
+        "title": "Java Basics",
+        "url": "/library/java-basics"
+      },
+      "javaObjects": {
+        "stageCount": 4,
+        "title": "Java Objects",
+        "url": "/library/java-objects"
+      },
+      "publishAnAndroidApp": {
+        "stageCount": 1,
+        "title": "Publish an Android App",
+        "url": "/library/publish-an-android-app"
+      }
+    },
+    "title": "Learn Android Development"
+  },
+  "phpDevelopment": {
+    "area": "php",
+    "name": "PHP Development",
+    "url": "/tracks/php-development",
+    "sections": {
+      "buildASimplePhpApplication": {
+        "stageCount": 7,
+        "title": "Build a Simple PHP Application",
+        "url": "/library/build-a-simple-php-application"
+      },
+      "consoleFoundations": {
+        "stageCount": 5,
+        "title": "Console Foundations",
+        "url": "/library/console-foundations"
+      },
+      "cssFoundations": {
+        "stageCount": 13,
+        "title": "CSS Foundations",
+        "url": "/library/css-foundations"
+      },
+      "databaseFoundations": {
+        "stageCount": 9,
+        "title": "Database Foundations",
+        "url": "/library/database-foundations"
+      },
+      "enhancingASimplePhpApplication": {
+        "stageCount": 8,
+        "title": "Enhancing a Simple PHP Application",
+        "url": "/library/enhancing-a-simple-php-application"
+      },
+      "howToMakeAWebsite": {
+        "stageCount": 10,
+        "title": "How to Make a Website",
+        "url": "/library/how-to-make-a-website"
+      },
+      "html": {
+        "stageCount": 7,
+        "title": "HTML",
+        "url": "/library/html"
+      },
+      "introductionToProgramming": {
+        "stageCount": 4,
+        "title": "Introduction to Programming",
+        "url": "/library/introduction-to-programming"
+      },
+      "javascriptFoundations": {
+        "stageCount": 6,
+        "title": "JavaScript Foundations",
+        "url": "/library/javascript-foundations"
+      },
+      "jqueryBasics": {
+        "stageCount": 6,
+        "title": "jQuery Basics",
+        "url": "/library/jquery-basics"
+      },
+      "usingPhpWithMysql": {
+        "stageCount": 5,
+        "title": "Using PHP with MySQL",
+        "url": "/library/using-php-with-mysql"
+      }
+    },
+    "title": "Learn PHP Development"
+  },
+  "wordpressDevelopment": {
+    "area": "wordpress",
+    "name": "WordPress Development",
+    "url": "/tracks/wordpress-development",
+    "sections": {
+      "customizingTheWordpressAdminArea": {
+        "stageCount": 4,
+        "title": "Customizing the WordPress Admin Area",
+        "url": "/library/customizing-the-wordpress-admin-area"
+      },
+      "fromBootstrapToWordpress": {
+        "stageCount": 3,
+        "title": "From Bootstrap to WordPress",
+        "url": "/library/from-bootstrap-to-wordpress"
+      },
+      "howToBuildAWordpressPlugin": {
+        "stageCount": 5,
+        "title": "How to Build a WordPress Plugin",
+        "url": "/library/how-to-build-a-wordpress-plugin"
+      },
+      "howToMakeAWebsiteWithWordpress": {
+        "stageCount": 6,
+        "title": "How to Make a Website with WordPress",
+        "url": "/library/how-to-make-a-website-with-wordpress"
+      },
+      "localWordpressDevelopment": {
+        "stageCount": 1,
+        "title": "Local WordPress Development",
+        "url": "/library/local-wordpress-development"
+      },
+      "theWordpressCodex": {
+        "stageCount": 1,
+        "title": "The WordPress Codex",
+        "url": "/library/the-wordpress-codex"
+      },
+      "theWordpressTemplateHierarchy": {
+        "stageCount": 8,
+        "title": "The WordPress Template Hierarchy",
+        "url": "/library/the-wordpress-template-hierarchy"
+      },
+      "wordpressCustomizerApi": {
+        "stageCount": 3,
+        "title": "WordPress Customizer API",
+        "url": "/library/wordpress-customizer-api"
+      },
+      "wordpressThemeDevelopment": {
+        "stageCount": 10,
+        "title": "WordPress Theme Development",
+        "url": "/library/wordpress-theme-development"
+      }
+    },
+    "title": "Learn WordPress Development"
+  },
+  "startingABusiness": {
+    "area": "business",
+    "name": "Starting a Business",
+    "url": "/tracks/starting-a-business",
+    "sections": {
+      "howToMarketYourBusiness": {
+        "stageCount": 6,
+        "title": "How to Market Your Business",
+        "url": "/library/how-to-market-your-business"
+      },
+      "howToStartABusiness": {
+        "stageCount": 6,
+        "title": "How to Start a Business",
+        "url": "/library/how-to-start-a-business"
+      }
+    },
+    "title": "Starting a Business"
+  },
+  "learnWordpress": {
+    "area": "wordpress",
+    "name": "Learn WordPress",
+    "url": "/tracks/learn-wordpress",
+    "sections": {
+      "gettingStartedWithWordpress": {
+        "stageCount": 1,
+        "title": "Getting Started with WordPress",
+        "url": "/library/getting-started-with-wordpress"
+      },
+      "howToBuildAWordpressBlogWithoutCoding": {
+        "stageCount": 5,
+        "title": "How to Build a WordPress Blog Without Coding",
+        "url": "/library/how-to-build-a-wordpress-blog-without-coding"
+      },
+      "theWordpressCodex": {
+        "stageCount": 1,
+        "title": "The WordPress Codex",
+        "url": "/library/the-wordpress-codex"
+      },
+      "wordpressAdminSettings": {
+        "stageCount": 1,
+        "title": "WordPress Admin Settings",
+        "url": "/library/wordpress-admin-settings"
+      },
+      "wordpressForWebsiteOwners": {
+        "stageCount": 5,
+        "title": "WordPress for Website Owners",
+        "url": "/library/wordpress-for-website-owners"
+      },
+      "wordpressUserRoles": {
+        "stageCount": 1,
+        "title": "WordPress User Roles",
+        "url": "/library/wordpress-user-roles"
+      }
+    },
+    "title": "Learn WordPress"
+  },
+  "iosDevelopmentWithSwift": {
+    "area": "ios",
+    "name": "iOS Development with Swift",
+    "url": "/tracks/ios-development-with-swift",
+    "sections": {
+      "buildASimpleIphoneAppWithSwift": {
+        "stageCount": 6,
+        "title": "Build a Simple iPhone App with Swift",
+        "url": "/library/build-a-simple-iphone-app-with-swift"
+      },
+      "buildAWeatherAppWithSwift": {
+        "stageCount": 4,
+        "title": "Build a Weather App with Swift",
+        "url": "/library/build-a-weather-app-with-swift"
+      },
+      "objectorientedSwift": {
+        "stageCount": 4,
+        "title": "Object-Oriented Swift",
+        "url": "/library/objectoriented-swift"
+      },
+      "swiftBasics": {
+        "stageCount": 5,
+        "title": "Swift Basics",
+        "url": "/library/swift-basics"
+      },
+      "swiftEnumsAndStructs": {
+        "stageCount": 4,
+        "title": "Swift Enums and Structs",
+        "url": "/library/swift-enums-and-structs"
+      },
+      "swiftFunctionsAndOptionals": {
+        "stageCount": 3,
+        "title": "Swift Functions and Optionals",
+        "url": "/library/swift-functions-and-optionals"
+      }
+    },
+    "title": "Learn iOS Development with Swift"
+  },
+  "learnPython": {
+    "area": "python",
+    "name": "Learn Python",
+    "url": "/tracks/learn-python",
+    "sections": {
+      "datesAndTimesInPython": {
+        "stageCount": 3,
+        "title": "Dates and Times in Python",
+        "url": "/library/dates-and-times-in-python"
+      },
+      "objectorientedPython": {
+        "stageCount": 3,
+        "title": "Object-Oriented Python",
+        "url": "/library/objectoriented-python"
+      },
+      "pythonBasics": {
+        "stageCount": 6,
+        "title": "Python Basics",
+        "url": "/library/python-basics"
+      },
+      "pythonCollections": {
+        "stageCount": 5,
+        "title": "Python Collections",
+        "url": "/library/python-collections"
+      },
+      "regularExpressionsInPython": {
+        "stageCount": 1,
+        "title": "Regular Expressions in Python",
+        "url": "/library/regular-expressions-in-python"
+      },
+      "settingUpALocalPythonEnvironment": {
+        "stageCount": 1,
+        "title": "Setting Up a Local Python Environment",
+        "url": "/library/setting-up-a-local-python-environment"
+      },
+      "writeBetterPython": {
+        "stageCount": 2,
+        "title": "Write Better Python",
+        "url": "/library/write-better-python"
+      }
+    },
+    "title": "Learn Python"
+  },
+  "learnRuby": {
+    "area": "ruby",
+    "name": "Learn Ruby",
+    "url": "/tracks/learn-ruby",
+    "sections": {
+      "rubyBasics": {
+        "stageCount": 4,
+        "title": "Ruby Basics",
+        "url": "/library/ruby-basics"
+      },
+      "rubyBooleans": {
+        "stageCount": 2,
+        "title": "Ruby Booleans",
+        "url": "/library/ruby-booleans"
+      },
+      "rubyCollections": {
+        "stageCount": 3,
+        "title": "Ruby Collections",
+        "url": "/library/ruby-collections"
+      },
+      "rubyLoops": {
+        "stageCount": 3,
+        "title": "Ruby Loops",
+        "url": "/library/ruby-loops"
+      },
+      "rubyObjectsAndClasses": {
+        "stageCount": 3,
+        "title": "Ruby Objects and Classes",
+        "url": "/library/ruby-objects-and-classes"
+      },
+      "rubyOperatorsAndControlStructures": {
+        "stageCount": 3,
+        "title": "Ruby Operators and Control Structures",
+        "url": "/library/ruby-operators-and-control-structures"
+      }
+    },
+    "title": "Seo Title"
+  }
+}

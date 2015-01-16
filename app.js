@@ -28,7 +28,9 @@ var app = new Nightmare()
 
 app.run(function (err, nightmare) {
   if (err) return console.log(err);
-  console.log('Done!', output);
+
+  var camelizedOutput = allKeysToCamelCase(output);
+  console.log(JSON.stringify(camelizedOutput));
 });
 
 function getTrackInfo(){
@@ -54,6 +56,21 @@ function setTrackInfo(trackInfo){
 }
 
 function trackUrlToKey(url){
-  var hypenatedKey = url.split('/').pop();
-  return camelCase(hypenatedKey);
+  return url.split('/').pop();
+}
+
+function allKeysToCamelCase(obj){
+  var output = {};
+
+  // Recursively changes object keys to use camelCase
+  // similar to the solution at: http://stackoverflow.com/a/10196772
+  for (var i in obj) {
+    if (Object.prototype.toString.apply(obj[i]) === '[object Object]') {
+      output[camelCase(i)] = allKeysToCamelCase(obj[i]);
+    } else {
+      output[camelCase(i)] = obj[i];
+    }
+  }
+
+  return output;
 }

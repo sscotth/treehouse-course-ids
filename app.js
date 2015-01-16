@@ -1,3 +1,5 @@
+'use strict';
+
 var Nightmare = require('nightmare');
 var camelCase = require('camel-case');
 var _ = require('lodash');
@@ -14,9 +16,10 @@ var app = new Nightmare()
   .use(function(){
     _.each(output, function(track){
       var url = 'http://teamtreehouse.com' + track.url;
+
       app
         .use(function(){
-          console.log('Goto:', url);
+          console.log('Loading Url:', url);
         })
         .goto(url)
         .screenshot(track.name + '.png');
@@ -31,12 +34,11 @@ app.run(function (err, nightmare) {
 function getTrackInfo(){
   return $('.track').map(function(i, track){
     var info = {};
-    $track = $(track);
-    info.url = $track.find('a.title').attr('href');
-
+    var $track = $(track);
     var classList = $track.attr('class').split(' ');
-    info.area = _.difference(classList, ['track', 'card'])[0];
 
+    info.url = $track.find('a.title').attr('href');
+    info.area = _.difference(classList, ['track', 'card'])[0];
     info.name = $track.find('a.title h3').text();
 
     return info;
@@ -45,7 +47,9 @@ function getTrackInfo(){
 
 function setTrackInfo(trackInfo){
   var key = trackUrlToKey(trackInfo.url);
+
   output[key] = trackInfo;
+
   return trackInfo;
 }
 
